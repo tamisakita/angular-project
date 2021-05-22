@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { ToDoListComponent } from './components/to-do-list/to-do-list.component';
 import { ToDoItemComponent } from './components/to-do-item/to-do-item.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     ToDoListComponent,
-    ToDoItemComponent
+    ToDoItemComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

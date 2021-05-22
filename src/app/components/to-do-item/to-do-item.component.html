@@ -1,1 +1,5 @@
-<p>to-do-item works!</p>
+<p>
+  <span [ngClass]="{ textdone: done }">{{ toDo.id }} - {{ toDo.text }} </span>
+  <button class="btn btn-success btn-sm m-2" (click)="markAsDone()">&#10003;</button>
+  <button class="btn btn-danger btn-sm" (click)="removeToDo()">Remover</button>
+</p>
